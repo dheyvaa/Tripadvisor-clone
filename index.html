@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- logo added in the searchengine -->
+    <link rel="icon" type="image/png" href="./image/tripadvisor-icon.ico">
+    <title>Tripadvisor: Over a billion reviews &amp; contributions for Hotels, Attractions, Restaurants, and more
+    </title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font awasome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- My style sheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- navigation bars -->
+    <div class="navbar">
+        <div class="navbar__s1">
+            <div class="navbar-image">
+                <img src="./image/tripadvisor-icon.png" alt="icon">
+                <h2 class="navbar-s1__title">Tripadvisor</h2>
+            </div>
+
+        </div>
+        <div class="navbar__s2">
+
+            <h4 class="head">Discover</h4>
+            <h4 class="head">Trips</h4>
+            <h4 class="head">Review</h4>
+            <h4 class="head">forums</h4>
+
+        </div>
+        <div class="navbar__s3">
+            <div class=" details">
+                <span class=" fa-solid fa-globe"></span>
+                <span class="separator">|</span>
+                <span class="currency">INR</span>
+            </div>
+            <div class="navbar__s4">
+                <h4>Sign in</h4>
+            </div>
+        </div>
+    </div>
+    <!-- description of the categories -->
+    <div class="cat__desc">
+        <h1>Where to?</h1>
+    </div>
+    <!-- categories -->
+    <div class="categories">
+        <div class="cat__one">
+            <i class="fa-solid fa-house"></i>
+            <p>search All</p>
+        </div>
+        <div class="cat__two">
+            <i class="fa-solid fa-bed"></i>
+            <p>Hotels</p>
+        </div>
+        <div class="cat__three">
+            <i class="fa-solid fa-camera"></i>
+            <p>Things to Do</p>
+        </div>
+        <div class="cat__four">
+            <i class="fa-solid fa-utensils"></i>
+            <p>Restaurants</p>
+        </div>
+        <div class="cat__five">
+            <i class="fa-solid fa-plane-departure"></i>
+            <p>Flights</p>
+        </div>
+        <div class="cat__six">
+            <i class="fa-solid fa-house-lock"></i>
+            <p>Holiday Homes</p>
+        </div>
+    </div>
+    <!-- searchbar -->
+    <div class="search">
+        <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+        <input type="text" placeholder="Places to go,things to do,hotels,...." class="search__box">
+        <button class="search__button">Search</button>
+    </div>
+    <!-- Banner  -->
+    <div class="banner">
+        <img class="banner__img" src="./image/banner.jpg" alt="image">
+        <div class="banner__text">
+            <h5 style="font-weight: 900px;font-size: 18px;">Powered by Ai
+                <button
+                    style="border: none;padding: 10px;border-radius: 10px;font-weight:600;font-size:16px;margin-left: 10px; ">BETA</button>
+            </h5>
+            <h1 style="font-weight: 900;font-size: 50px;margin-top: 20px;">Plan your kind of trip</h1>
+            <h2 style="font-size: 30px;font-weight: 600;">Get custom recs for all the things you're into with AI trip
+                builder. </h2>
+            <button class="banner__button">Start a trip with AI</button>
+        </div>
+    </div>
+    <!-- card section 1   -->
+    <div class="card-container">
+        <div class="card__head1">
+            <h2>Explore the world's most stunning seasides</h2>
+            <p>2025's Traveller's Choice Awards Best of the Best Beaches</p>
+        </div>
+        <div class="card">
+            <div class="card__s1">
+                <img class="img-1" src="./image/img1.jpg" alt="image">
+                <h2 class="img-title">World</h2>
+            </div>
+            <div class="card__s1">
+                <img class="img-1" src="./image/img2.jpg" alt="image">
+                <h2 class="img-title">Europe</h2>
+            </div>
+            <div class="card__s1">
+                <img class="img-1" src="./image/img3.jpg" alt="image">
+                <h2 class="img-title">Asia</h2>
+            </div>
+            <div class="card__s1">
+                <img class="img-1" src="./image/img4.jpg" alt="image">
+                <h2 class="img-title">South Pacific</h2>
+            </div>
+        </div>
+    </div>
+    <!-- card section 2 -->
+    <div class="card-container">
+        <div class="card__head2">
+            <h2>You might like these</h2>
+            <p>More things to do in Paris</p>
+        </div>
+        <div class="card">
+            <div class="card__s2">
+                <img class="img-2" src="./image/img1card2.jpg" alt="image">
+                <img class="img-3" src="./image/like.png" alt="image">
+                <h4 class="img-title1">Louvre Museum</h4>
+                <div class="rating__section">
+                    <span class="rating">4.5</span>
+                    <span class="img-rating">OOOOO</span>
+                    <span class="count">(1,43,288)</span>
+                </div>
+                <p>Architectural Buildings, Art Museums</p>
+            </div>
+            <div class="card__s2">
+                <img class="img-2" src="./image/img2card2.jpg" alt="image">
+                <img class="img-3" src="./image/like.png" alt="image">
+                <h4 class="img-title1">Cathedrale Notre-Dame de Paris</h4>
+                <div class="rating__section">
+                    <span class="rating">4.6</span>
+                    <span class="img-rating">OOOOO</span>
+                    <span class="count">(1,50,088)</span>
+                </div>
+                <p>Architectural Buildings, Historical sites</p>
+            </div>
+            <div class="card__s2">
+                <img class="img-2" src="./image/img3card2.jpg" alt="image">
+                <img class="img-3" src="./image/like.png" alt="image">
+                <h4 class="img-title1">Arc de Triomphe</h4>
+                <div class="rating__section">
+                    <span class="rating">4.9</span>
+                    <span class="img-rating">OOOOO</span>
+                    <span class="count">(12,23,477)</span>
+                </div>
+                <p>Architectural Buildings, Historical sites</p>
+            </div>
+            <div class="card__s2">
+                <img class="img-2" src="./image/img4card2.jpg" alt="image">
+                <img class="img-3" src="./image/like.png" alt="image">
+                <h4 class="img-title1">Basilique du Sacre-Coeur de Montmartre</h4>
+                <div class="rating__section">
+                    <span class="rating">5</span>
+                    <span class="img-rating">OOOOO</span>
+                    <span class="count">(2,56,000)</span>
+                </div>
+                <p>Churches and Cathedrals</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- card section3 -->
+    <div class="card-container">
+        <div class="card__head2">
+            <h2>Ways to tour Coimbatore</h2>
+            <p>Book these experiences for a close-up look at Coimbatore.</p>
+        </div>
+        <div class="card">
+            <div class="card__s2">
+                <img class="img-2" src="./image/img1card3.jpg" alt="image">
+                <img class="img-3" src="./image/like.png" alt="image">
+                <h4 class="img-title1">Explore The Gedee Car Museum In Coimbatore</h4>
+                <div class="rating__section">
+                    <span class="rating">4.0</span>
+                    <span class="img-rating">OOOOO</span>
+                    <span class="count">(1)</span>
+                </div>
+                <p class="price">From ₹7,706 per adult</p>
+            </div>
+            <div class="card__s2">
+                <img class="img-2" src="./image/img2card3.jpg" alt="image">
+                <img class="img-3" src="./image/like.png" alt="image">
+                <h4 class="img-title1">Gass Forest Museum with Lunch- Coimbatore</h4>
+                <div class="rating__section">
+                    <span class="rating">4.6</span>
+                    <span class="img-rating">OOOOO</span>
+                    <span class="count">(0)</span>
+                </div>
+                <p class="price">From ₹10,158 per adult</p>
+            </div>
+            <div class="card__s2">
+                <img class="img-2" src="./image/img3card3.jpg" alt="image">
+                <img class="img-3" src="./image/like.png" alt="image">
+                <h4 class="img-title1">Explore the Palani Murugan Temple From Coimbatore</h4>
+                <div class="rating__section">
+                    <span class="rating">4.9</span>
+                    <span class="img-rating">OOOOO</span>
+                    <span class="count">(1)</span>
+                </div>
+                <p class="price">From ₹16,901 per adult</p>
+            </div>
+            <div class="card__s2">
+                <img class="img-2" src="./image/img4card3.jpg" alt="image">
+                <img class="img-3" src="./image/like.png" alt="image">
+                <h4 class="img-title1">Coimbatore to Ooty- transfer+Hotel+Sightseeing</h4>
+                <div class="rating__section">
+                    <span class="rating">5</span>
+                    <span class="img-rating">OOOOO</span>
+                    <span class="count">(2)</span>
+                </div>
+                <p class="price">From ₹26,446 per adult</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- card section 4   more to explore -->
+    <div class="card-container1">
+        <h2 class="card__head3">More to explore</h2>
+        <div class="card-one">
+            <div class="card__s4">
+                <img class="img-4" src="./image/img1card4.jpg" alt="image">
+                <img class="img-5" src="./image/like.png" alt="image">
+                <p class="desc">3 perfect days in Chiang Mai</p>
+            </div>
+            <div class="card__s4">
+                <img class="img-4" src="./image/img2card4.jpg" alt="image">
+                <img class="img-5" src="./image/like.png" alt="image">
+                <p class="desc">15 stunning infinity pools in the world that are worth the trip</p>
+            </div>
+            <div class="card__s4">
+                <img class="img-4" src="./image/img3card4.jpg" alt="image">
+                <img class="img-5" src="./image/like.png" alt="image">
+                <p class="desc">11 gorgeous places in India that have to be seen to be believed</p>
+            </div>
+        </div>
+    </div>
+    <!-- card section5 dream trip -->
+    <div class="card-container">
+        <div class="card__head1">
+            <h2>Dream Your Next Trip</h2>
+            <h3>Weekend gate ways from Madurai</h3>
+        </div>
+        <div class="card">
+            <div class="card__s5">
+                <img class="img-1" src="./image/dream1.jpg" alt="image">
+                <h2 class="img-title__one">Kanyakumari, India</h2>
+            </div>
+            <div class="card__s5">
+                <img class="img-1" src="./image/dream2.jpg" alt="image">
+                <h2 class="img-title__one">Rameshwaram, India</h2>
+            </div>
+            <div class="card__s5">
+                <img class="img-1" src="./image/dream3.jpg" alt="image">
+                <h2 class="img-title__one">Varkala Town, India</h2>
+            </div>
+            <div class="card__s5">
+                <img class="img-1" src="./image/dream4.jpg" alt="image">
+                <h2 class="img-title__one">Coimbatore, India</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- card section6 destination -->
+    <div class="card-container">
+        <div class="card__head1">
+
+            <h3>Top destinations for your next holiday</h3>
+        </div>
+        <div class="card">
+            <div class="card__s5">
+                <img class="img-1" src="./image/des1.jpg" alt="image">
+                <h2 class="img-title">London, UK</h2>
+            </div>
+            <div class="card__s5">
+                <img class="img-1" src="./image/des2.jpg" alt="image">
+                <h2 class="img-title">Dubai,UAE</h2>
+            </div>
+            <div class="card__s5">
+                <img class="img-1" src="./image/des3.jpg" alt="image">
+                <h2 class="img-title">Paris, France</h2>
+            </div>
+            <div class="card__s5">
+                <img class="img-1" src="./image/des4.jpg" alt="image">
+                <h2 class="img-title">Barcelona, Spain</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer banner -->
+    <div class="banner2">
+        <img class="banner__img1" src="./image/banner5.jpg" alt="image">
+        <div class="banner__text1">
+            <img class="icon" src="./image/yellowicon.svg" alt="icon">
+            <h1 style="font-weight: 900px;font-size: 50px;">Traveller's Choice </h1>
+            <h1 style="font-weight: 900px;font-size: 50px;">Awards Best of the Best</h1>
+            <p style="font-weight: 700;font-size: 20px;">Among our top 1% of places, stays, eats, and
+                experiences—decided by you.</p>
+            <button class="banner__button1">See the winners</button>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="full__footer">
+        <div class="footer">
+            <div class="footer-head">
+                <div class="footer-column">
+                    <h4>About Tripadvisor</h4>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Press</a></li>
+                        <li><a href="">Resources and Policies</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Trust & Safety</a></li>
+                        <li><a href="">Contact us</a></li>
+                        <li><a href="">Accessibility Statement</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="">Write a review</a></li>
+                        <li><a href="">Add a Place</a></li>
+                        <li><a href="">Join</a></li>
+                        <li><a href="">Traveller's Choice</a></li>
+                        <li><a href="">Help Centre</a></li>
+                        <li><a href="">Travel Stories</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Do Business With Us</h4>
+                    <ul>
+                        <li><a href="">Owners & DMO/CVB</a></li>
+                        <li><a href="">Business Advantage</a></li>
+                        <li><a href="">Sponsored Placements</a></li>
+                        <li><a href="">Access our Content API</a></li>
+                        <br>
+                        <h4>Get The App</h4>
+                        <ul>
+                            <li><a href="">Iphone</a></li>
+                            <li><a href="">Android App</a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-column">
+                    <h4>Tripadvisor Sites</h4>
+                    <p>Book tours and attraction tickets on
+                        <a href="">Viator</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- footer bottom -->
+        <div class="footer-container">
+            <div class="footer-foot">
+                <div class="footer-foot1">
+                    <img src="./image/tripadvisor-icon.png" alt="icon">
+
+                </div>
+                <span style="font-size: 13px;color: grey; "> &copy; 2025 Tripadvisor LLC All rights reserved.</span>
+                <div class="footer-below">
+                    <div class="footer-foot2">
+
+                        <p>
+                            <a href="">Terms of Use</a>
+                            <a href="">Privacy and Cookies Statement</a>
+                            <a href="">Cookie consent</a>
+                            <a href="">Site Map</a>
+                            <a href="">How the site works</a><br>
+                            <a href="">Contact us</a>
+                        </p>
+
+                    </div>
+
+                    <div class="footer-foot3">
+                        <div class="footer__dropdown">
+                            <select>
+                                <option>₹ INR</option>
+                                <option>$ USD</option>
+                                <option>£ GBP</option>
+                                <option>€ EUR</option>
+                                <option>$ CAD</option>
+                                <option>¥ CNY</option>
+                                <option>₽ RUB</option>
+                                <option>¥ JPY</option>
+                            </select>
+                            <select>
+                                <option>India</option>
+                                <option>United States</option>
+                                <option>Canada</option>
+                                <option>Brasil</option>
+                                <option>Argentina</option>
+                                <option>China</option>
+                                <option>Japan</option>
+                                <option>Russia</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-below2">
+                    
+                    <div class="footer-foot4">
+                        <p style="font-size: 12px;color: grey;">This is the version of our website addressed to speakers
+                            of
+                            English in India. If you are a resident of another country or region,<br> please select the
+                            appropriate
+                            version of Tripadvisor for your country or region in the drop-down menu.
+                        <p style="font-weight: 500;font-size: 14px;;"><a style="color: black;text-decoration: none;" href="">show more</a>
+                        <p>
+                        </p>
+                    </div>
+                    <div class="footer__socialmedia">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
